@@ -1,4 +1,4 @@
-.PHONY: deps build test repo install run uninstall clean
+.PHONY: deps build test repo install run uninstall clean electron electron2
 
 deps:
 	flatpak --user install --assumeyes flathub org.freedesktop.Platform//20.08
@@ -29,3 +29,9 @@ clean:
 	rm -rf ./build-dir
 	rm -rf ./.flatpak-builder
 	rm -rf ./repo
+
+electron:
+	flatpak --user install --assumeyes flathub io.atom.electron.BaseApp/x86_64/stable
+
+electron2:
+	flatpak --user install --assumeyes flathub org.electronjs.Electron2.BaseApp//20.08
