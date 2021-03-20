@@ -25,10 +25,11 @@ run:
 uninstall:
 	flatpak uninstall --assumeyes com.superproductivity.SuperProductivity
 
-clean:
+clean: uninstall
 	rm -rf ./build-dir
 	rm -rf ./.flatpak-builder
 	rm -rf ./repo
+	flatpak remote-delete tutorial-repo
 
 electron2:
 	flatpak --user install --assumeyes flathub org.electronjs.Electron2.BaseApp//20.08
