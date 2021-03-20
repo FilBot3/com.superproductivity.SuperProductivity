@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Super Productivity
+GenericName=Super Productivity
+Comment=To-do list & time tracker for programmers and other digital workers
+TryExec=/app/bin/super-productivity
+Exec=/app/bin/super-productivity
+Type=Application
+Keywords=Productivity;Work;Development;
+Icon=com.superproductivity.SuperProductivity
+Categories=Utility;Development;

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<component type="desktop">
+  <id>com.superproductivity.SuperProductivity</id>
+  <name>Super Productivity</name>
+  <summary>To-do list &amp; time tracker for programmers and other digital workers with Jira, Github, and Gitlab integration</summary>
+  <metadata_license>MIT</metadata_license>
+  <url type="homepage">https://super-productivity.com/</url>
+  <provides>
+    <id>com.superproductivity.SuperProductivity</id>
+  </provides>
+  <description>
+    <p>Organize your daily tasks in one place while making time tracking a lot less annoying. Super Productivity is a ToDo List / Time Tracker / Personal Jira Task Manager for Linux, MacOS and Windows aimed at reducing the time you spend with repetitive tasks and to provide you with a place to collect all the information you need to do your job.</p>
+    <ul>
+      <li>Plan, track &amp; summarize. Create time sheets and work summaries in a breeze to easily export them to your company's time tracking system.</li>
+      <li>Integrate with Jira, GitHub and GitLab. Auto import tasks assigned to you, plan the details locally, automatically create worklogs and get notified right away, when something changes.</li>
+      <li>Organize your project's data. Create notes, attach files or create bookmarks for links, files and even commands and have it all out of the way, once you're ready for the weekend.</li>
+      <li>Helps you to establish healthy habits. A break timer reminds to you, when it's time to step away. You also can collect personal metrics for yourself to see, which of your work routines need adjustments.</li>
+      <li>Stuck and procrastinating? No problem! Super Productivity's anti procrastination feature helps you to reconsider your options and a pomodoro timer is also always at hand.</li>
+      <li>Super Productivity does NOT collect any data and there are no user accounts or registration. It's free and open source and always will be.</li>
+      <li>And much more!</li>
+    </ul>
+  </description>
+  <releases>
+    <release version="6.5.0" date="2021-03-05"/>
+  </releases>
+</component>
