@@ -2,6 +2,7 @@
 build-dir/
 .flatpak-builder/
 repo/
+*.flatpak
 
 ## Vim Files
 # Swap

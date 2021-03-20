@@ -20,10 +20,10 @@ install:
 	flatpak --user install --assumeyes tutorial-repo com.superproductivity.SuperProductivity
 
 run:
-	flatpak run org.flatpak.Hello
+	flatpak run com.superproductivity.SuperProductivity
 
 uninstall:
-	flatpak uninstall --assumeyes org.flatpak.Hello
+	flatpak uninstall --assumeyes com.superproductivity.SuperProductivity
 
 clean:
 	rm -rf ./build-dir
