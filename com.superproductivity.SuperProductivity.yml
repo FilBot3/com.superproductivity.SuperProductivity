@@ -1,12 +1,16 @@
 ---
 app-id: com.superproductivity.SuperProductivity
-base: org.electronjs.Electron2.BaseApp
-base-version: '20.08'
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
-command: super-productivity
+base: org.electronjs.Electron2.BaseApp
+base-version: '21.08'
 separate-locales: false
+sdk-extension:
+  - org.freedesktop.Sdk.Extension.node14
+build-options:
+  append-path: /usr/lib/sdk/node14/bin
+command: run.sh
 finish-args:
   - '--share=ipc'
   - '--socket=wayland'
@@ -25,11 +29,11 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        path: src/super-productivity.sh
+        path: super-productivity.sh
       - type: file
-        path: src/com.superproductivity.SuperProductivity.appdata.xml
+        path: com.superproductivity.SuperProductivity.appdata.xml
       - type: file
-        path: src/com.superproductivity.SuperProductivity.desktop
+        path: com.superproductivity.SuperProductivity.desktop
       - type: file
         only-arches:
           - x86_64
